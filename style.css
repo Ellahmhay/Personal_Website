@@ -14,6 +14,7 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: black;
 
 }
 nav{
@@ -402,14 +403,17 @@ a:focus{
 }
 
 @media only screen  and (min-width:1024px){
+    
     body{
         background-color: black;
         background-image: none;
         overflow-x: hidden;
+        height: -100px;
 
     }
     html{
         scroll-behavior: smooth;
+        height: -100px;
     }
     .logo1{
         font-size: 35px;
